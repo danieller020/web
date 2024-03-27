@@ -1,0 +1,33 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+   /*background-color: #000000;*/
+   background-image: url('../img/biblioteca/pickawood-YbLitAY8bPA-unsplash.jpg'); /* Ruta de la imagen de fondo */
+  background-color: rgba(255, 255, 255, 0.5); /* Color de fondo con transparencia */
+  padding: 20px; /* Espaciado interno para que el contenido no esté pegado al borde */
+  background-size: 100% 100%;
+  }
+  
+  br{
+    background-color: #000000;
+  }
+  .gallery a {
+    margin: 10px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: 300px;
+    border: 2px solid #000000; /* Añade un borde gris */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    box-shadow: 0 2px 4px #804000; /* Añade una sombra suave */
+    transition: transform 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño en hover */
+    border-color: #555; /* Cambia el color del borde en hover */
+  }
+  

@@ -1,0 +1,319 @@
+/* Estilos para el botón del menú */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 45%;
+    height: 45%;
+}
+
+.menu-btn {
+    cursor: pointer;
+}
+
+.btn-line {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.destacado {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.destacado h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.destacado p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #15dfdf;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Estilos de la sección de cursos */
+
+.cursos {
+    padding: 50px 0;
+}
+
+.cursos p{
+   text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+  
+.lista-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.curso {
+    width: 250px;
+    margin: 20px;
+    background-color: silver;
+}
+
+.curso img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.curso h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.curso p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilos del pie de página */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.redes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.redes li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+body{
+    background-color: silver;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
+ /*RESPONSIVE*/
+
+
+@media screen and (min-width: 768px) {
+
+    /* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 45%;
+    height: 45%;
+}
+
+.menu-btn {
+    cursor: pointer;
+}
+
+.btn-line {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.destacado {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.destacado h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.destacado p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #15dfdf;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Estilos de la sección de cursos */
+
+.cursos {
+    padding: 50px 0;
+}
+
+.lista-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.curso {
+    width: 250px;
+    margin: 20px;
+    background-color: silver;
+}
+
+.curso img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.curso h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.curso p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilos del pie de página */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.redes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.redes li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
+}

@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b6e2d3;
+    height: 100vh;
+    font-family: Dubai, sans-serif;
+}
+
+.logo {
+    margin-right: 20px;
+    box-shadow: #b6e2d3;
+}
+    
+
+
+.card-header, .card-body {
+    font-size: 20px;
+    font-family: Dubai, sans-serif;
+}
+
+.form-group label, .form-control {
+    font-size: 16px;
+    font-family: Dubai, sans-serif;
+}
+#login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #042377;
+
+}
+
+.card-header {
+    background-color: #042377;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #042377;
+}
+
+.btn-primary {
+    background-color: #042377;
+    border-color: black;
+    font-family: Dubai, sans-serif;
+
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
